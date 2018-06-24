@@ -1,0 +1,17 @@
+<package>
+  <name>control_msgs</name>
+  <version>0.0.1</version>
+  <description>The control messages package</description>
+ <maintainer email="todo@todo.com">todo</maintainer>
+
+<license>todo</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>

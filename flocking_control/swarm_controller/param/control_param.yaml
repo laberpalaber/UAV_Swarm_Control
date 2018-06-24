@@ -1,0 +1,23 @@
+flocking_control:
+  pid_altitude: # parameters for the PID controller for the attitude
+    mass: 0.716 # mass of the UAV [kg]
+    desired_altitude: {z: 1.0, zd: 0.0, zdd: 0.0} # desired attitude [m], [m/s], [m/s²] (constant)
+    gains: {kp: 1.0, kd: 1.0, ki: 0.2}
+  pid_heading: # parameters for the PID controller for the heading
+    inertia_zz: 0.012 # inertia of the UAV
+    desired_heading: {h: 0.0, hd: 0.0, hdd: 0.0} # desired heading [rad], [rad/s], [rad/s²] (constant)
+    gains: {kp: 1.0, kd: 1.0, ki: 1.0}
+  flocking: # parameters for the PID controller for the heading
+    kp: 2.0
+    kd: 1.0
+    c: 2.0
+    d: 1.5
+    eps: 0.1
+    h: 0.2
+    a: 1.0 
+    b: 1.0     
+    c1: 0.5
+    c2: 0.5 
+
+    
+  

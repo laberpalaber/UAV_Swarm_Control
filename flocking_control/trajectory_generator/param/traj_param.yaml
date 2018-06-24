@@ -1,0 +1,12 @@
+trajectory: 
+  trajectory_type: 4 # 1..Line, 2..Square, 3..Lemniscate, 4..Circle
+  duration: 30 # duration of whole trajectory in [s]
+  start_point: {x: 0.0, y: 0.0} # trajectory start point [m]
+  line:
+    end_point: {x: 0.0, y: 0.0} # trajectory end point [m]
+  square:
+    size: 10 # side length of the square [m]
+  lemniscate: 
+    foci_dis: 5 # distance between the foci of the lemniscate [m]
+  circle:
+    radius: 5 # Radius of the circle [m]
