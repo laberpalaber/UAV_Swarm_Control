@@ -1,0 +1,13 @@
+<launch>
+
+	<node pkg="control_law" type = "control_law_node"  name = "control_law"/>
+	
+	
+	<node pkg="control_law" type = "fleet_control"  name = "fleet_control" >
+
+	</node>
+	<node pkg="control_law" type = "as_vectors"  name = "as_vectors" output = "screen">
+
+	</node>
+	
+</launch>
