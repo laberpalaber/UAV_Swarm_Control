@@ -33,7 +33,7 @@ The two controllers are listed separately, for their usage refer to the correspo
 Simulations were carried out under three different conditions as described above. These simulations can be launched by their respective launch files as follows:
 
 ```
-cd ~/catkin_ws/src/virtual_structure/launch
+cd ~/catkin_ws/src/control_law/launch
 roslaunch hummingbird.launch    // for the first two simulations
 roslaunch collision.launch     // for the simulation with collision
 ```
